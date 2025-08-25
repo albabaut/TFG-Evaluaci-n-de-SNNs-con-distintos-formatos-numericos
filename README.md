@@ -1,4 +1,4 @@
-# Neuroscience Simulation Project with Brian2
+# TFG Evaluacion de SNNs con distintos formatos numericos
 
 This project implements and analyzes neural network simulations using Brian2 with different numerical precision types (float16, float32, float64, posit16).
 
