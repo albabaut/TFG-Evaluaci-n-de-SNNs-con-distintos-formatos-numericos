@@ -1,23 +1,23 @@
-# Metrics Analysis
+# Análisis de Métricas
 
-This directory contains figures related to various metrics and quality measures.
+Este directorio contiene figuras relacionadas con varias métricas y medidas de calidad.
 
-## Contents
+## Contenido
 
-### Quality Metrics
-- **psnr_vs_I.png** - Peak Signal-to-Noise Ratio vs input current
-- **psnr_vs_corriente.png** - PSNR vs current (Spanish labeling)
-- **ssim_vs_I.png** - Structural Similarity Index vs input current
-- **ssim_vs_corriente.png** - SSIM vs current (Spanish labeling)
+### Métricas de Calidad
+- **psnr_vs_I.png** - Relación Señal-Ruido de Pico vs corriente de entrada
+- **psnr_vs_corriente.png** - PSNR vs corriente (etiquetado en español)
+- **ssim_vs_I.png** - Índice de Similitud Estructural vs corriente de entrada
+- **ssim_vs_corriente.png** - SSIM vs corriente (etiquetado en español)
 
-### Comparison Metrics
-- **metricas_comparacion.png** - General metrics comparison
-- **comparacion_metricas_extended.png** - Extended metrics comparison
-- **comparacion_red_sinaptica.png** - Synaptic network comparison
+### Métricas de Comparación
+- **metricas_comparacion.png** - Comparación general de métricas
+- **comparacion_metricas_extended.png** - Comparación extendida de métricas
+- **comparacion_red_sinaptica.png** - Comparación de red sináptica
 
-### Parameter Sweeps
-- **barrido_0_10.png** - Parameter sweep from 0 to 10
+### Barridos de Parámetros
+- **barrido_0_10.png** - Barrido de parámetros de 0 a 10
 
-## Description
+## Descripción
 
-These figures analyze various quality metrics and comparison measures between different numerical precision formats. They include PSNR (Peak Signal-to-Noise Ratio), SSIM (Structural Similarity Index), and other metrics that quantify the quality and accuracy of neural simulations. 
+Estas figuras analizan varias métricas de calidad y medidas de comparación entre diferentes formatos de precisión numérica. Incluyen PSNR (Relación Señal-Ruido de Pico), SSIM (Índice de Similitud Estructural) y otras métricas que cuantifican la calidad y precisión de simulaciones neuronales. 

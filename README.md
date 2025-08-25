@@ -1,115 +1,115 @@
-# TFG Evaluacion de SNNs con distintos formatos numericos
+# Proyecto de Simulación de Neurociencia con Brian2
 
-This project implements and analyzes neural network simulations using Brian2 with different numerical precision types (float16, float32, float64, posit16).
+Este proyecto implementa y analiza simulaciones de redes neuronales usando Brian2 con diferentes tipos de precisión numérica (float16, float32, float64, posit16).
 
-## Project Structure
+## Estructura del Proyecto
 
 ```
 tfg/
-├── analysis/                    # Analysis scripts organized by category
-│   ├── neuron_models/          # Single neuron and basic neuron group simulations
-│   ├── network_analysis/       # Network-level simulations and analysis
-│   ├── numerical_precision/    # Precision comparison and numerical analysis
-│   ├── utils/                  # Utility functions and helper scripts
-│   └── plotting/               # Plotting and visualization scripts
-├── data/                       # Data files
-│   ├── raw/                    # Raw simulation data
-│   ├── processed/              # Processed data
-│   └── metrics/                # Metrics and comparison results
-├── outputs/                    # Output files
-│   ├── figures/                # Generated plots and visualizations
-│   │   ├── figuras/            # Main analysis figures
-│   │   ├── images/             # General images
-│   │   ├── images_compare/     # Comparison plots
-│   │   ├── sweep_plots/        # Parameter sweep visualizations
-│   │   └── results/            # Analysis result figures
-│   ├── reports/                # Analysis reports
-│   └── logs/                   # Simulation and analysis logs
-├── brian2/                     # Brian2 library source code
-├── universal/                  # Universal number system library
-└── venv/                       # Python virtual environment
+├── analysis/                    # Scripts de análisis organizados por categoría
+│   ├── neuron_models/          # Simulaciones de neuronas individuales y grupos básicos
+│   ├── network_analysis/       # Simulaciones y análisis a nivel de red
+│   ├── numerical_precision/    # Comparación de precisión y análisis numérico
+│   ├── utils/                  # Funciones de utilidad y scripts auxiliares
+│   └── plotting/               # Scripts de graficado y visualización
+├── data/                       # Archivos de datos
+│   ├── raw/                    # Datos de simulación sin procesar
+│   ├── processed/              # Datos procesados
+│   └── metrics/                # Métricas y resultados de comparación
+├── outputs/                    # Archivos de salida
+│   ├── figures/                # Gráficos y visualizaciones generadas
+│   │   ├── figuras/            # Figuras principales de análisis
+│   │   ├── images/             # Imágenes generales
+│   │   ├── images_compare/     # Gráficos de comparación
+│   │   ├── sweep_plots/        # Visualizaciones de barridos de parámetros
+│   │   └── results/            # Figuras de resultados de análisis
+│   ├── reports/                # Reportes de análisis
+│   └── logs/                   # Logs de simulación y análisis
+├── brian2/                     # Código fuente de la biblioteca Brian2
+├── universal/                  # Biblioteca de sistema de números universal
+└── venv/                       # Entorno virtual de Python
 ```
 
-## Analysis Categories
+## Categorías de Análisis
 
-### 1. Neuron Models (`analysis/neuron_models/`)
-- Single neuron simulations with different parameters
-- Parameter sweeps (current, time constants, thresholds)
-- Basic neuron group implementations
-- Izhikevich neuron models
+### 1. Modelos de Neuronas (`analysis/neuron_models/`)
+- Simulaciones de neuronas individuales con diferentes parámetros
+- Barridos de parámetros (corriente, constantes de tiempo, umbrales)
+- Implementaciones básicas de grupos neuronales
+- Modelos de neuronas Izhikevich
 
-### 2. Network Analysis (`analysis/network_analysis/`)
-- Spiking neural network simulations
-- STDP learning implementations
-- Multi-layer network analysis
-- Pulse detection and noise analysis
+### 2. Análisis de Redes (`analysis/network_analysis/`)
+- Simulaciones de redes neuronales de spiking
+- Implementaciones de aprendizaje STDP
+- Análisis de redes multicapa
+- Detección de pulsos y análisis de ruido
 
-### 3. Numerical Precision (`analysis/numerical_precision/`)
-- Float16 vs Float32 vs Float64 vs Posit16 comparisons
-- Numerical error analysis
-- Stress test cases
-- Debugging numerical issues
+### 3. Precisión Numérica (`analysis/numerical_precision/`)
+- Comparaciones Float16 vs Float32 vs Float64 vs Posit16
+- Análisis de errores numéricos
+- Casos de prueba de estrés
+- Depuración de problemas numéricos
 
-### 4. Utilities (`analysis/utils/`)
-- Analysis helper functions
-- Metrics calculation
-- Data processing utilities
-- Testing and validation scripts
+### 4. Utilidades (`analysis/utils/`)
+- Funciones auxiliares de análisis
+- Cálculo de métricas
+- Utilidades de procesamiento de datos
+- Scripts de prueba y validación
 
-### 5. Plotting (`analysis/plotting/`)
-- Visualization scripts
-- Comparison plots
-- Parameter sweep visualizations
+### 5. Graficado (`analysis/plotting/`)
+- Scripts de visualización
+- Gráficos de comparación
+- Visualizaciones de barridos de parámetros
 
-## Key Features
+## Características Principales
 
-- **Multi-precision support**: Float16, Float32, Float64, and Posit16
-- **Comprehensive analysis**: From single neurons to complex networks
-- **Parameter sweeps**: Systematic exploration of parameter spaces
-- **Error analysis**: RMSE, accumulated error, spike timing analysis
-- **Visualization**: Heatmaps, scatter plots, time series, and statistical plots
+- **Soporte multi-preción**: Float16, Float32, Float64 y Posit16
+- **Análisis integral**: Desde neuronas individuales hasta redes complejas
+- **Barridos de parámetros**: Exploración sistemática de espacios de parámetros
+- **Análisis de errores**: RMSE, error acumulado, análisis de timing de spikes
+- **Visualización**: Mapas de calor, gráficos de dispersión, series temporales y gráficos estadísticos
 
-## Getting Started
+## Comenzando
 
-1. **Setup environment**:
+1. **Configurar entorno**:
    ```bash
    python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   source venv/bin/activate  # En Windows: venv\Scripts\activate
    pip install -r requirements.txt
    ```
 
-2. **Run basic simulations**:
+2. **Ejecutar simulaciones básicas**:
    ```bash
    cd analysis/neuron_models
    python neuron1.py
    ```
 
-3. **Run precision comparisons**:
+3. **Ejecutar comparaciones de precisión**:
    ```bash
    cd analysis/numerical_precision
    python comprehensive_numerical_analysis.py
    ```
 
-## Data Organization
+## Organización de Datos
 
-- **Metrics**: Stored in `data/metrics/` as CSV files
-- **Figures**: Generated in `outputs/figures/` organized by analysis type
-- **Logs**: Simulation logs stored in `outputs/logs/`
-- **Results**: Analysis results in `outputs/figures/results/`
+- **Métricas**: Almacenadas en `data/metrics/` como archivos CSV
+- **Figuras**: Generadas en `outputs/figures/` organizadas por tipo de análisis
+- **Logs**: Logs de simulación almacenados en `outputs/logs/`
+- **Resultados**: Resultados de análisis en `outputs/figures/results/`
 
-## Dependencies
+## Dependencias
 
-- Brian2 (neural simulation library)
-- NumPy (numerical computing)
-- Matplotlib (plotting)
-- Pandas (data analysis)
-- SciPy (scientific computing)
-- Posit wrapper (custom implementation)
+- Brian2 (biblioteca de simulación neural)
+- NumPy (computación numérica)
+- Matplotlib (graficado)
+- Pandas (análisis de datos)
+- SciPy (computación científica)
+- Wrapper de Posit (implementación personalizada)
 
-## Contributing
+## Contribuir
 
-When adding new analysis scripts:
-1. Place them in the appropriate category directory
-2. Follow the existing naming conventions
-3. Update this README if adding new categories
-4. Ensure outputs go to the correct organized directories 
+Al añadir nuevos scripts de análisis:
+1. Colócalos en el directorio de categoría apropiado
+2. Sigue las convenciones de nomenclatura existentes
+3. Actualiza este README si añades nuevas categorías
+4. Asegúrate de que las salidas vayan a los directorios organizados correctos 

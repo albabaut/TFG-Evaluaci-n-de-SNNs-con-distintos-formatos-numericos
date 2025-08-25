@@ -1,19 +1,19 @@
-# Simulation Results
+# Resultados de Simulación
 
-This directory contains figures showing direct simulation outputs and test results.
+Este directorio contiene figuras que muestran resultados directos de simulaciones y resultados de pruebas.
 
-## Contents
+## Contenido
 
-### Simulation Comparisons
-- **sim_float32.png** - Simulation results using float32 precision
-- **sim_float64.png** - Simulation results using float64 precision
-- **sim_posit.png** - Simulation results using posit precision
+### Comparaciones de Simulación
+- **sim_float32.png** - Resultados de simulación usando precisión float32
+- **sim_float64.png** - Resultados de simulación usando precisión float64
+- **sim_posit.png** - Resultados de simulación usando precisión posit
 
-### Test Results
-- **test_I.png** - Test results for different input currents
-- **test014.png** - Test results for specific test case 014
-- **output.png** - General simulation output visualization
+### Resultados de Pruebas
+- **test_I.png** - Resultados de pruebas para diferentes corrientes de entrada
+- **test014.png** - Resultados de pruebas para caso de prueba específico 014
+- **output.png** - Visualización general de salida de simulación
 
-## Description
+## Descripción
 
-These figures show the raw simulation results and test outputs for different numerical precision formats. They provide direct visual comparison of how different precision levels affect simulation accuracy and behavior. 
+Estas figuras muestran los resultados directos de simulaciones y salidas de pruebas para diferentes formatos de precisión numérica. Proporcionan comparación visual directa de cómo diferentes niveles de precisión afectan la precisión y comportamiento de la simulación. 

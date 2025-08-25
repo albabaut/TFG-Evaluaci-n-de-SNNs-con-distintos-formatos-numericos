@@ -1,19 +1,19 @@
-# Error Analysis
+# Análisis de Errores
 
-This directory contains figures related to error analysis and accumulated error measurements.
+Este directorio contiene figuras relacionadas con el análisis de errores y mediciones de error acumulado.
 
-## Contents
+## Contenido
 
-### Accumulated Error Analysis
-- **error_acumulado_vs_I.png** - Accumulated error vs input current
-- **error_acumulado_vtime.png** - Accumulated error vs time
-- **error_vs_float64_red.png** - Error comparison with float64 reference
+### Análisis de Error Acumulado
+- **error_acumulado_vs_I.png** - Error acumulado vs corriente de entrada
+- **error_acumulado_vtime.png** - Error acumulado vs tiempo
+- **error_vs_float64_red.png** - Comparación de errores con referencia float64
 
-### Logarithmic Error Analysis
-- **log_error_vs_float64_red.png** - Logarithmic error vs float64 reference
-- **log_rmse_vs_I.png** - Logarithmic RMSE vs input current
-- **log_rmse_vs_I_p32.png** - Logarithmic RMSE vs current for 32-bit precision
+### Análisis Logarítmico de Errores
+- **log_error_vs_float64_red.png** - Error logarítmico vs referencia float64
+- **log_rmse_vs_I.png** - RMSE logarítmico vs corriente de entrada
+- **log_rmse_vs_I_p32.png** - RMSE logarítmico vs corriente para precisión de 32 bits
 
-## Description
+## Descripción
 
-These figures analyze the accumulation and distribution of numerical errors across different precision formats. They show how errors compound over time and how different numerical representations handle error accumulation in neural simulations. 
+Estas figuras analizan la acumulación y distribución de errores numéricos entre diferentes formatos de precisión. Muestran cómo los errores se acumulan a lo largo del tiempo y cómo diferentes representaciones numéricas manejan la acumulación de errores en simulaciones neuronales. 

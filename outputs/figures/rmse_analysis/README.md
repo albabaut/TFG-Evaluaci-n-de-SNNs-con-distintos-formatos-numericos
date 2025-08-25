@@ -1,29 +1,29 @@
-# RMSE Analysis
+# Análisis de RMSE
 
-This directory contains figures related to Root Mean Square Error (RMSE) analysis across different numerical precision formats.
+Este directorio contiene figuras relacionadas con el análisis de Error Cuadrático Medio (RMSE) entre diferentes formatos de precisión numérica.
 
-## Contents
+## Contenido
 
-### RMSE vs Current (I)
-- **rmse_vs_I.png** - RMSE vs input current for different formats
-- **rmse_vs_I_extended.png** - Extended RMSE analysis vs current
-- **rmse_vs_I_p24.png** - RMSE vs current for 24-bit precision
-- **rmse_vs_I_p32.png** - RMSE vs current for 32-bit precision
-- **rmse_vs_I_p24_p20.png** - RMSE vs current comparing 24-bit and 20-bit
-- **rmse_vs_I_bfloat.png** - RMSE vs current for bfloat format
-- **rmse_vs_I_golden.png** - RMSE vs current for golden reference
-- **rmse_vs_I_cercacero.png** - RMSE vs current near zero values
+### RMSE vs Corriente (I)
+- **rmse_vs_I.png** - RMSE vs corriente de entrada para diferentes formatos
+- **rmse_vs_I_extended.png** - Análisis extendido de RMSE vs corriente
+- **rmse_vs_I_p24.png** - RMSE vs corriente para precisión de 24 bits
+- **rmse_vs_I_p32.png** - RMSE vs corriente para precisión de 32 bits
+- **rmse_vs_I_p24_p20.png** - RMSE vs corriente comparando 24 bits y 20 bits
+- **rmse_vs_I_bfloat.png** - RMSE vs corriente para formato bfloat
+- **rmse_vs_I_golden.png** - RMSE vs corriente para referencia dorada
+- **rmse_vs_I_cercacero.png** - RMSE vs corriente cerca de valores cero
 
-### RMSE Heatmaps
-- **heatmap_rmse_posit16.png** - RMSE heatmap for posit16 format
-- **heatmap_rmse_float32.png** - RMSE heatmap for float32 format
-- **heatmap_rmse_float16.png** - RMSE heatmap for float16 format
+### Mapas de Calor de RMSE
+- **heatmap_rmse_posit16.png** - Mapa de calor de RMSE para formato posit16
+- **heatmap_rmse_float32.png** - Mapa de calor de RMSE para formato float32
+- **heatmap_rmse_float16.png** - Mapa de calor de RMSE para formato float16
 
-### Other RMSE Metrics
-- **rmse_spike_vs_current.png** - RMSE of spike timing vs current
-- **rmse_barplot_red.png** - Bar plot of RMSE values
-- **rmse_vs_corriente.png** - RMSE vs current (Spanish labeling)
+### Otras Métricas de RMSE
+- **rmse_spike_vs_current.png** - RMSE del timing de spikes vs corriente
+- **rmse_barplot_red.png** - Gráfico de barras de valores de RMSE
+- **rmse_vs_corriente.png** - RMSE vs corriente (etiquetado en español)
 
-## Description
+## Descripción
 
-These figures analyze the numerical accuracy of different precision formats by measuring the Root Mean Square Error between simulation results and reference values. Lower RMSE indicates better numerical accuracy. 
+Estas figuras analizan la precisión numérica de diferentes formatos de precisión midiendo el Error Cuadrático Medio entre los resultados de simulación y los valores de referencia. Un RMSE más bajo indica mejor precisión numérica. 

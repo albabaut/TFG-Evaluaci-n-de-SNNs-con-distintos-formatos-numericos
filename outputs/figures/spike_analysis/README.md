@@ -1,23 +1,23 @@
-# Spike Analysis
+# Análisis de Spikes
 
-This directory contains figures related to spike timing, firing rates, and spike-related metrics analysis.
+Este directorio contiene figuras relacionadas con el análisis de timing de spikes, tasas de disparo y métricas relacionadas con el comportamiento de spiking.
 
-## Contents
+## Contenido
 
-### Spike Timing Analysis
-- **spike_times.png** - Basic spike timing visualization
-- **spike_timing_diff.png** - Spike timing differences between formats
-- **spike_timing_diff_e11.png** - Spike timing differences with e11 precision
-- **spike_timing_diff_e12.png** - Spike timing differences with e12 precision
+### Análisis de Timing de Spikes
+- **spike_times.png** - Visualización básica del timing de spikes
+- **spike_timing_diff.png** - Diferencias de timing de spikes entre formatos
+- **spike_timing_diff_e11.png** - Diferencias de timing de spikes con precisión e11
+- **spike_timing_diff_e12.png** - Diferencias de timing de spikes con precisión e12
 
-### Firing Rate Analysis
-- **firing_rate_vs_current.png** - Firing rate vs input current
-- **sparsity_vs_current.png** - Spike sparsity vs input current
-- **spike_totals_vs_current.png** - Total spike count vs input current
+### Análisis de Tasa de Disparo
+- **firing_rate_vs_current.png** - Tasa de disparo vs corriente de entrada
+- **sparsity_vs_current.png** - Esparcidad de spikes vs corriente de entrada
+- **spike_totals_vs_current.png** - Conteo total de spikes vs corriente de entrada
 
-### Spike Train Analysis
-- **spike_train_comparison.png** - Comparison of spike trains between formats
+### Análisis de Tren de Spikes
+- **spike_train_comparison.png** - Comparación de trenes de spikes entre formatos
 
-## Description
+## Descripción
 
-These figures analyze the spiking behavior of neurons under different numerical precision formats. They show how precision affects spike timing accuracy, firing rates, and overall spiking patterns in neural simulations. 
+Estas figuras analizan el comportamiento de spiking de las neuronas bajo diferentes formatos de precisión numérica. Muestran cómo la precisión afecta la precisión del timing de spikes, las tasas de disparo y los patrones generales de spiking en simulaciones neuronales. 

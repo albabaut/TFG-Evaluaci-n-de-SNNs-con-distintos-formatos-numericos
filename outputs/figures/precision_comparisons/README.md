@@ -1,13 +1,13 @@
-# Precision Comparisons
+# Comparaciones de Precisión
 
-This directory contains figures related to precision comparisons between different numerical formats.
+Este directorio contiene figuras relacionadas con comparaciones de precisión entre diferentes formatos numéricos.
 
-## Contents
+## Contenido
 
-- **precision_comparison_10.png** - Precision comparison with 10 neurons
-- **precision_comparison_100.png** - Precision comparison with 100 neurons  
-- **comparison_voltage_trace.png** - Voltage trace comparison between formats
+- **precision_comparison_10.png** - Comparación de precisión con 10 neuronas
+- **precision_comparison_100.png** - Comparación de precisión con 100 neuronas  
+- **comparison_voltage_trace.png** - Comparación de trazas de voltaje entre formatos
 
-## Description
+## Descripción
 
-These figures show how different numerical precision formats (float16, float32, float64, posit16) affect the accuracy of neural simulations. They demonstrate the trade-offs between precision and computational efficiency in spiking neural network simulations. 
+Estas figuras muestran cómo diferentes formatos de precisión numérica (float16, float32, float64, posit16) afectan la precisión de las simulaciones neuronales. Demuestran los compromisos entre precisión y eficiencia computacional en simulaciones de redes neuronales de spiking. 

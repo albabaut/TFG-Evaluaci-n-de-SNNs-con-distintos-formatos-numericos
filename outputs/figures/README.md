@@ -1,55 +1,55 @@
-# Figures Directory
+# Directorio de Figuras
 
-This directory contains all generated figures and visualizations from the neuroscience simulation project.
+Este directorio contiene todas las figuras y visualizaciones generadas del proyecto de simulación de neurociencia.
 
-## Directory Structure
+## Estructura del Directorio
 
-### 📊 **Main Analysis Categories**
+### 📊 **Categorías Principales de Análisis**
 
-- **`precision_comparisons/`** - Figures comparing different numerical precision formats
-- **`rmse_analysis/`** - Root Mean Square Error analysis across precision formats
-- **`spike_analysis/`** - Spike timing, firing rates, and spiking behavior analysis
-- **`error_analysis/`** - Error accumulation and distribution analysis
-- **`simulation_results/`** - Raw simulation outputs and test results
-- **`metrics_analysis/`** - Quality metrics and comparison measures
+- **`precision_comparisons/`** - Figuras comparando diferentes formatos de precisión numérica
+- **`rmse_analysis/`** - Análisis de Error Cuadrático Medio (RMSE) entre formatos de precisión
+- **`spike_analysis/`** - Análisis de timing de spikes, tasas de disparo y comportamiento de spiking
+- **`error_analysis/`** - Análisis de acumulación y distribución de errores
+- **`simulation_results/`** - Resultados directos de simulaciones
+- **`metrics_analysis/`** - Métricas de calidad y medidas de comparación
 
-### 📁 **Specialized Directories**
+### 📁 **Directorios Especializados**
 
-- **`figuras/`** - Main analysis figures (organized by analysis type)
-- **`images/`** - General simulation images
-- **`images_compare/`** - Comparison plots between different approaches
-- **`sweep_plots/`** - Parameter sweep visualizations
-- **`results/`** - Detailed analysis results and reports
+- **`figuras/`** - Figuras principales de análisis (organizadas por tipo de análisis)
+- **`images/`** - Imágenes generales de simulación
+- **`images_compare/`** - Gráficos de comparación entre diferentes enfoques
+- **`sweep_plots/`** - Visualizaciones de barridos de parámetros
+- **`results/`** - Resultados detallados de análisis y reportes
 
-## Figure Types
+## Tipos de Figuras
 
-### **Precision Format Comparisons**
+### **Comparaciones de Formatos de Precisión**
 - Float16 vs Float32 vs Float64 vs Posit16
-- Numerical accuracy analysis
-- Trade-offs between precision and efficiency
+- Análisis de precisión numérica
+- Compromisos entre precisión y eficiencia computacional
 
-### **Error Analysis**
-- RMSE (Root Mean Square Error) measurements
-- Accumulated error over time
-- Logarithmic error analysis
+### **Análisis de Errores**
+- Mediciones de RMSE (Error Cuadrático Medio)
+- Error acumulado a lo largo del tiempo
+- Análisis logarítmico de errores
 
-### **Spiking Behavior**
-- Spike timing accuracy
-- Firing rate analysis
-- Spike train comparisons
+### **Comportamiento de Spiking**
+- Precisión del timing de spikes
+- Análisis de tasas de disparo
+- Comparaciones de trenes de spikes
 
-### **Quality Metrics**
-- PSNR (Peak Signal-to-Noise Ratio)
-- SSIM (Structural Similarity Index)
-- Other numerical quality measures
+### **Métricas de Calidad**
+- PSNR (Relación Señal-Ruido de Pico)
+- SSIM (Índice de Similitud Estructural)
+- Otras medidas de calidad numérica
 
-## Usage
+## Uso
 
-Each subdirectory contains a README.md file explaining the specific figures and their purpose. This organization makes it easy to find relevant visualizations for different types of analysis.
+Cada subdirectorio contiene un archivo README.md explicando las figuras específicas y su propósito. Esta organización facilita encontrar visualizaciones relevantes para diferentes tipos de análisis.
 
-## File Naming Convention
+## Convención de Nomenclatura
 
-Figures are named descriptively to indicate:
-- What is being measured (e.g., `rmse_vs_I`)
-- Which precision format (e.g., `_float32`, `_posit16`)
-- What parameter is varied (e.g., `_vs_current`, `_vs_time`) 
+Las figuras se nombran de manera descriptiva para indicar:
+- Qué se está midiendo (ej., `rmse_vs_I`)
+- Qué formato de precisión (ej., `_float32`, `_posit16`)
+- Qué parámetro varía (ej., `_vs_current`, `_vs_time`) 
