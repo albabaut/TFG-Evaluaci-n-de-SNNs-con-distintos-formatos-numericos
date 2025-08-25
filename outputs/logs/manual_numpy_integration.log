@@ -1,0 +1,29 @@
+2025-06-28 11:38:53,368 - INFO - ManualNumpyIntegration inicializado con 500 pasos de 0.1ms
+2025-06-28 11:38:53,368 - INFO - === INICIANDO ANÁLISIS COMPLETO DE INTEGRACIÓN MANUAL ===
+2025-06-28 11:38:53,368 - INFO - Ejecutando integración Euler explícita con float64
+2025-06-28 11:38:53,369 - INFO - Integración float64 completada. 0 spikes detectados
+2025-06-28 11:38:53,369 - INFO - Ejecutando integración Euler explícita con float32
+2025-06-28 11:38:53,370 - INFO - Integración float32 completada. 0 spikes detectados
+2025-06-28 11:38:53,370 - INFO - Ejecutando integración Euler explícita con float16
+2025-06-28 11:38:53,371 - INFO - Integración float16 completada. 0 spikes detectados
+2025-06-28 11:38:53,371 - INFO - Ejecutando integración Euler explícita con posit16
+2025-06-28 11:38:53,372 - INFO - Integración posit16 completada. 0 spikes detectados
+2025-06-28 11:38:53,372 - INFO - === DETECTANDO PUNTOS DE DIVERGENCIA ===
+2025-06-28 11:38:53,375 - INFO - No se detectaron divergencias significativas para float32
+2025-06-28 11:38:53,376 - WARNING - Divergencia float16 vs float64 detectada:
+2025-06-28 11:38:53,376 - WARNING -   Paso: 0
+2025-06-28 11:38:53,376 - WARNING -   Tiempo: 0.000ms
+2025-06-28 11:38:53,376 - WARNING -   Diferencia: 0.012500mV
+2025-06-28 11:38:53,377 - WARNING - Divergencia posit16 vs float64 detectada:
+2025-06-28 11:38:53,377 - WARNING -   Paso: 0
+2025-06-28 11:38:53,377 - WARNING -   Tiempo: 0.000ms
+2025-06-28 11:38:53,377 - WARNING -   Diferencia: 0.012500mV
+2025-06-28 11:38:53,378 - INFO - === CREANDO TABLA DE COMPARACIÓN ===
+2025-06-28 11:38:53,413 - INFO - === GENERANDO GRÁFICAS DE ANÁLISIS ===
+2025-06-28 11:38:55,890 - INFO - === RESUMEN FINAL ===
+2025-06-28 11:38:55,890 - INFO - float64: 0 spikes
+2025-06-28 11:38:55,890 - INFO - float32: 0 spikes
+2025-06-28 11:38:55,890 - INFO - float16: 0 spikes
+2025-06-28 11:38:55,890 - INFO - posit16: 0 spikes
+2025-06-28 11:38:55,890 - INFO - Archivos generados en results/manual_numpy/
+2025-06-28 11:38:55,890 - INFO - Log guardado en manual_numpy_integration.log

@@ -1,0 +1,14 @@
+type,param,n_spikes
+noise,0.0,1999
+noise,0.2,1989
+noise,0.5,1717
+noise,1.0,1439
+sine,0.5nA@5Hz,0
+sine,0.5nA@10Hz,0
+sine,0.5nA@20Hz,0
+sine,1.0nA@5Hz,0
+sine,1.0nA@10Hz,0
+sine,1.0nA@20Hz,0
+sine,2.0nA@5Hz,0
+sine,2.0nA@10Hz,0
+sine,2.0nA@20Hz,0

@@ -1,0 +1,6 @@
+analysis,status,timestamp,n_steps,n_comparisons,n_divergences,n_metrics,n_currents
+step_by_step,completed,2025-06-28 11:53:22,500.0,,,,
+brian2_callbacks,failed,2025-06-28 11:53:22,,,,,
+manual_numpy,completed,2025-06-28 11:53:22,,500.0,2.0,,
+advanced_comparison,completed,2025-06-28 11:53:22,,,,15.0,5.0
+stress_tests,failed,2025-06-28 11:53:22,,,,,

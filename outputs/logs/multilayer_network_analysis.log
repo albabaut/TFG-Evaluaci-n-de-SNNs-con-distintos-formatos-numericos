@@ -1,0 +1,55 @@
+2025-06-28 12:10:00,222 - INFO - AdvancedExtensionsAnalysis inicializado
+2025-06-28 12:10:00,223 - INFO - === INICIANDO ANÁLISIS COMPLETO DE EXTENSIONES AVANZADAS ===
+2025-06-28 12:10:00,223 - INFO - === EJECUTANDO ANÁLISIS DE REDES MULTICAPA ===
+2025-06-28 12:10:00,224 - INFO - MultilayerNetworkAnalysis inicializado
+2025-06-28 12:10:00,225 - INFO - === INICIANDO ANÁLISIS COMPREHENSIVO DE REDES MULTICAPA ===
+2025-06-28 12:10:00,225 - INFO - Probando configuración: small
+2025-06-28 12:10:00,227 - INFO -   Con corriente: 10. mV
+2025-06-28 12:10:00,227 - INFO - === EJECUTANDO SIMULACIÓN DE RED MULTICAPA ===
+2025-06-28 12:10:00,227 - INFO - Ejecutando con precisión: float64
+2025-06-28 12:10:00,227 - INFO - Creando red multicapa: [10, 8, 5] con precisión float64
+2025-06-28 12:10:00,370 - ERROR - Error en análisis de redes multicapa: Source group 'neurongroup_3' does not define an event 'spike'. Did you forget to set a 'threshold'?
+2025-06-28 12:10:00,371 - INFO - === EJECUTANDO ANÁLISIS DE APRENDIZAJE STDP ===
+2025-06-28 12:10:00,373 - INFO - STDPLearningAnalysis inicializado
+2025-06-28 12:10:00,373 - INFO - === INICIANDO ANÁLISIS COMPREHENSIVO STDP ===
+2025-06-28 12:10:00,373 - INFO - Probando configuración: small
+2025-06-28 12:10:00,373 - INFO - === EJECUTANDO SIMULACIÓN STDP ===
+2025-06-28 12:10:00,373 - INFO - Ejecutando STDP con precisión: float64
+2025-06-28 12:10:00,373 - INFO - Creando red STDP: 10 neuronas con precisión float64
+2025-06-28 12:10:05,621 - INFO -   float64: 0 spikes, 90 sinapsis
+2025-06-28 12:10:05,621 - INFO - Ejecutando STDP con precisión: float32
+2025-06-28 12:10:05,621 - INFO - Creando red STDP: 10 neuronas con precisión float32
+2025-06-28 12:10:10,684 - INFO -   float32: 0 spikes, 90 sinapsis
+2025-06-28 12:10:10,684 - INFO - Ejecutando STDP con precisión: float16
+2025-06-28 12:10:10,684 - INFO - Creando red STDP: 10 neuronas con precisión float16
+2025-06-28 12:10:16,890 - INFO -   float16: 0 spikes, 90 sinapsis
+2025-06-28 12:10:16,891 - INFO - Ejecutando STDP con precisión: posit16
+2025-06-28 12:10:16,892 - INFO - Creando red STDP: 10 neuronas con precisión posit16
+2025-06-28 12:10:16,898 - ERROR - Error en análisis STDP: v should be set with a value with units volt, but got [-0.07 -0.07 ... -0.07 -0.07] (unit is 1).
+2025-06-28 12:10:16,904 - INFO - === EJECUTANDO ANÁLISIS DE REDES BALANCEADAS ===
+2025-06-28 12:10:16,905 - INFO - BalancedNetworkAnalysis inicializado
+2025-06-28 12:10:16,905 - INFO - === INICIANDO ANÁLISIS COMPREHENSIVO DE REDES BALANCEADAS ===
+2025-06-28 12:10:16,905 - INFO - Probando configuración: small
+2025-06-28 12:10:16,905 - INFO - === EJECUTANDO SIMULACIÓN DE RED BALANCEADA ===
+2025-06-28 12:10:16,905 - INFO - Ejecutando red balanceada con precisión: float64
+2025-06-28 12:10:16,905 - INFO - Creando red balanceada: 50E/12I con precisión float64
+2025-06-28 12:10:20,264 - INFO -   float64: E=0 spikes, I=0 spikes
+2025-06-28 12:10:20,264 - INFO -     E rate: 0.00 Hz, I rate: 0.00 Hz
+2025-06-28 12:10:20,265 - INFO - Ejecutando red balanceada con precisión: float32
+2025-06-28 12:10:20,265 - INFO - Creando red balanceada: 50E/12I con precisión float32
+2025-06-28 12:10:23,553 - INFO -   float32: E=0 spikes, I=0 spikes
+2025-06-28 12:10:23,553 - INFO -     E rate: 0.00 Hz, I rate: 0.00 Hz
+2025-06-28 12:10:23,553 - INFO - Ejecutando red balanceada con precisión: float16
+2025-06-28 12:10:23,553 - INFO - Creando red balanceada: 50E/12I con precisión float16
+2025-06-28 12:10:26,908 - INFO -   float16: E=0 spikes, I=0 spikes
+2025-06-28 12:10:26,908 - INFO -     E rate: 0.00 Hz, I rate: 0.00 Hz
+2025-06-28 12:10:26,908 - INFO - Ejecutando red balanceada con precisión: posit16
+2025-06-28 12:10:26,908 - INFO - Creando red balanceada: 50E/12I con precisión posit16
+2025-06-28 12:10:26,922 - ERROR - Error en análisis de redes balanceadas: v should be set with a value with units volt, but got [-0.07 -0.07 ... -0.07 -0.07] (unit is 1).
+2025-06-28 12:10:26,924 - INFO - === EJECUTANDO ANÁLISIS CON MODELOS NEURONALES COMPLEJOS ===
+2025-06-28 12:10:26,924 - INFO - Analizando modelos Izhikevich
+2025-06-28 12:10:26,924 - INFO - Probando neurona RS
+2025-06-28 12:10:29,056 - ERROR - Error en análisis de modelos complejos: name 'convert16' is not defined
+2025-06-28 12:10:29,057 - INFO - === CREANDO REPORTE COMPREHENSIVO DE EXTENSIONES ===
+2025-06-28 12:10:29,069 - INFO - Reporte comprehensivo de extensiones creado
+2025-06-28 12:10:29,069 - INFO - === ANÁLISIS DE EXTENSIONES COMPLETADO ===
