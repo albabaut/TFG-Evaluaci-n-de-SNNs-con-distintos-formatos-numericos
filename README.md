@@ -1,4 +1,4 @@
-# Proyecto de Simulación de Neurociencia con Brian2
+# SNNs con Brian2
 
 Este proyecto implementa y analiza simulaciones de redes neuronales usando Brian2 con diferentes tipos de precisión numérica (float16, float32, float64, posit16).
 
