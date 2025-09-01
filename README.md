@@ -69,26 +69,6 @@ tfg/
 - **Análisis de errores**: RMSE, error acumulado, análisis de timing de spikes
 - **Visualización**: Mapas de calor, gráficos de dispersión, series temporales y gráficos estadísticos
 
-## Comenzando
-
-1. **Configurar entorno**:
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # En Windows: venv\Scripts\activate
-   pip install -r requirements.txt
-   ```
-
-2. **Ejecutar simulaciones básicas**:
-   ```bash
-   cd analysis/neuron_models
-   python neuron1.py
-   ```
-
-3. **Ejecutar comparaciones de precisión**:
-   ```bash
-   cd analysis/numerical_precision
-   python comprehensive_numerical_analysis.py
-   ```
 
 ## Organización de Datos
 
